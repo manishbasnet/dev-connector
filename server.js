@@ -34,6 +34,6 @@ app.use('/api/users', users);
 app.use('/api/profile', profile);
 app.use('/api/posts', posts);
 
-const port = process.env.PORT || 5009;
+const port = process.env.PORT || 5010;
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
